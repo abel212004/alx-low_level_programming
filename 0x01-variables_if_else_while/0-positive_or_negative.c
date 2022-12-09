@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main: the function that starts the program
+ * main - the function that starts the program
  * objective: assigning random values to the variable n
- * return 0 success
+ * Return: 0 success
  */
 int main(void)
 {
