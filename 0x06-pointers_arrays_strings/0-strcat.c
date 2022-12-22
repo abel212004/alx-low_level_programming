@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry Point 
+ * _strcat - concat 2 string
  * 
- * Return: 0 successfull
+ * Return:char
  */
 char *_strcat(char *dest, char *src)
 {
-	char *d = dest;
+	char *s = dest;
 
 	while (*dest != '\0')
 	{
@@ -21,5 +21,5 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return (d);
+	return (s);
 }
