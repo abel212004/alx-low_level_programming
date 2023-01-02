@@ -4,11 +4,10 @@
  *objective : using memset() function
  *Return : character
  */
-char *_memset(char *s, int c, size_t n)                                                                                              
-{                                                                                                                                    
-    unsigned int i;                                                                                        
-    for (i = 0; i < n; i++)                                                                                          
-        s[i] = c;                                                                                               
-                                                                                                                                     
-    return (s);                                                                                                    
+char *_memset(char *s, int c, size_t n)
+{
+    unsigned int i;
+    for (i = 0; i < n; i++)
+       s[i] = c;
+    return (s);
 }
