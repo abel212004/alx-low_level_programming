@@ -40,13 +40,13 @@ char *cap_string(char *str)
 int contains(char *str, char c)
 {
 	int i = 0;
-	int cont = 0;
+	int count = 0;
 
 	while (str[i] != 0)
 	{
 		if (str[i] == c)
-			cont = 1;
+			count = 1;
 		i++;
 	}
-	return (cont);
+	return (count);
 }
